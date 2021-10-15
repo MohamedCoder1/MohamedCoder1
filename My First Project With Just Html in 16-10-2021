@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="description" content="Renseignements personnels"/>
+  <title>Renseignements personnels</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="icon" href="icon.png" />
+</head>
+<body>² 
+  
+<form method="get" >
+
+  <h1 style="margin-left: 400px;"> Renseignements personnels </h1>
+<table style="margin-left: 350px;">
+<tr> 
+<td><label for="nom">  Nom </label>        </td>
+<td>      <input type="text" id="nom" name="nom"/>   </td>
+</tr>
+
+<tr >
+
+<td style="padding-top: 20px;">  <label for="prenom"> Prenom </label> </td>
+<td  style="padding-top: 20px;" > <input id="prenom" type="text" name="prenom"/> </td>
+</tr>
+<tr>
+<td  style="padding-top: 20px;">     <label for="telfixe"  >   Tel Fixe </label>   </td>
+<td style="padding-top: 20px;" >  <input type="tel" id="telfixe" name="telfixe"/>           </td>
+</tr>
+<tr>
+  <td  style="padding-top: 20px;">     <label for="telmobile"  >   Tel mobile </label>   </td>
+  <td style="padding-top: 20px;" >  <input type="tel" id="telmobile" name="telmobile"/>           </td>
+
+</tr>
+
+<tr>
+<td style="padding-top: 20px;"> <label>  Sexe </label>   </td>
+
+<td style="padding-top: 20px; " >
+<input type="radio" id="homme" name="sexe" value="homme"/>  <label for="homme">  Homme </label>
+
+<input type="radio" id="femme" name="sexe" value="femme"/>   <label for="femme"> Femme </label>
+
+</td>
+
+
+</tr>
+
+
+<tr  >
+
+<td style="padding-top: 20px;">  <label for="date">   Date de naissance </label> </td>
+
+<td style="padding-top: 20px;" > <input type="date" name="date" id="date"/>   </td>
+
+</tr>
+
+<tr>
+
+<td style="padding-top: 20px;" >  <label for="address">  Adresse </label> </td>
+
+<td style="padding-top: 20px;"> <textarea style="max-width: 200px ; max-height: 200px; " rows="6" cols="30" name="address" id="address" >   </textarea> </td>
+</tr>
+
+<tr>
+<td style="padding-bottom:0.5cm;"  > <label>  Vos loisir </label>  </td>
+<td style="padding-top: 20px;"  > 
+  
+ <input type="checkbox"  id="sport" name="vosloisir" value="sport"/>    <label for="sport" > Sport </label> 
+
+<input type="checkbox"  id="cinema" name="vosloisir" value="cinema"/>   <label for="cinema" > Cinema </label>  <br> <br>
+
+<input type="checkbox"  id="Theatre" name="vosloisir" value="Theatre"/>    <label for="Theatre" > Theatre </label> 
+<input type="checkbox"  id="lecture" name="vosloisir" value="lecture"/>    <label for="lecture" > Lecture </label> 
+
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="padding-top: 20px;" > <label for="email" >   Adresse Email </label>  </td>
+<td style="padding-top: 20px;" >   <input type="email" id="email" name="email"/>  </td>
+
+</tr>
+
+<tr>    
+<td> </td>
+ <td style="padding-top: 20px;"> <button type="submit"> S'inscrire  </button> <button style="margin-left: 1cm;" type="reset">   Effacer </button>  </td>
+ 
+
+</tr> 
+
+</form>
+
+
+</body>
+</html>
