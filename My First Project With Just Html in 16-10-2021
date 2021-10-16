@@ -6,6 +6,9 @@
   <meta name="description" content="Renseignements personnels"/>
   <title>Renseignements personnels</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+      #x{ padding-top: 20px;}
+  </style>
   <link rel="icon" href="icon.png" />
 </head>
 <body>² 
@@ -21,23 +24,23 @@
 
 <tr >
 
-<td style="padding-top: 20px;">  <label for="prenom"> Prenom </label> </td>
-<td  style="padding-top: 20px;" > <input id="prenom" type="text" name="prenom"/> </td>
+<td id="x">  <label for="prenom"> Prenom </label> </td>
+<td  id="x" > <input id="prenom" type="text" name="prenom"/> </td>
 </tr>
 <tr>
-<td  style="padding-top: 20px;">     <label for="telfixe"  >   Tel Fixe </label>   </td>
-<td style="padding-top: 20px;" >  <input type="tel" id="telfixe" name="telfixe"/>           </td>
+<td  id="x">     <label for="telfixe"  >   Tel Fixe </label>   </td>
+<td   id="x" >  <input type="tel" id="telfixe" name="telfixe"/>           </td>
 </tr>
 <tr>
-  <td  style="padding-top: 20px;">     <label for="telmobile"  >   Tel mobile </label>   </td>
-  <td style="padding-top: 20px;" >  <input type="tel" id="telmobile" name="telmobile"/>           </td>
+  <td  id="x">     <label for="telmobile"  >   Tel mobile </label>   </td>
+  <td id="x" >  <input type="tel" id="telmobile" name="telmobile"/>           </td>
 
 </tr>
 
 <tr>
-<td style="padding-top: 20px;"> <label>  Sexe </label>   </td>
+<td id="x"> <label>  Sexe </label>   </td>
 
-<td style="padding-top: 20px; " >
+<td id="x" >
 <input type="radio" id="homme" name="sexe" value="homme"/>  <label for="homme">  Homme </label>
 
 <input type="radio" id="femme" name="sexe" value="femme"/>   <label for="femme"> Femme </label>
@@ -50,22 +53,22 @@
 
 <tr  >
 
-<td style="padding-top: 20px;">  <label for="date">   Date de naissance </label> </td>
+<td id="x">  <label for="date">   Date de naissance </label> </td>
 
-<td style="padding-top: 20px;" > <input type="date" name="date" id="date"/>   </td>
+<td id="x" > <input type="date" name="date" id="date"/>   </td>
 
 </tr>
 
 <tr>
 
-<td style="padding-top: 20px;" >  <label for="address">  Adresse </label> </td>
+<td id="x" >  <label for="address">  Adresse </label> </td>
 
-<td style="padding-top: 20px;"> <textarea style="max-width: 200px ; max-height: 200px; " rows="6" cols="30" name="address" id="address" >   </textarea> </td>
+<td id="x"> <textarea style="max-width: 200px ; max-height: 200px; " rows="6" cols="30" name="address" id="address" >   </textarea> </td>
 </tr>
 
 <tr>
 <td style="padding-bottom:0.5cm;"  > <label>  Vos loisir </label>  </td>
-<td style="padding-top: 20px;"  > 
+<td id="x"  > 
   
  <input type="checkbox"  id="sport" name="vosloisir" value="sport"/>    <label for="sport" > Sport </label> 
 
@@ -81,14 +84,14 @@
 
 <tr>
 
-<td style="padding-top: 20px;" > <label for="email" >   Adresse Email </label>  </td>
-<td style="padding-top: 20px;" >   <input type="email" id="email" name="email"/>  </td>
+<td id="x" > <label for="email" >   Adresse Email </label>  </td>
+<td id="x" >   <input type="email" id="email" name="email"/>  </td>
 
 </tr>
 
 <tr>    
 <td> </td>
- <td style="padding-top: 20px;"> <button type="submit"> S'inscrire  </button> <button style="margin-left: 1cm;" type="reset">   Effacer </button>  </td>
+ <td id="x"> <button type="submit"> S'inscrire  </button> <button style="margin-left: 1cm;" type="reset">   Effacer </button>  </td>
  
 
 </tr> 
